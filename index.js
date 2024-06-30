@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 import { connectToDb, getDb } from './db.js';
 import bodyParser from "body-parser";
 import env from 'dotenv';
-const port = process.env.PORT;
+const port = 3000;
 const app = express()
 app.use(express.json());
 let db;
